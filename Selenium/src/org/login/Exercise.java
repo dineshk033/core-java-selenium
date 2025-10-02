@@ -19,7 +19,6 @@ public class Exercise {
 		a.moveToElement(menu).perform();
 		
 		Thread.sleep(2000);
-		//Test
 		WebElement menuItem = driver.findElement(By.linkText("Sarees"));
 		a.click(menuItem).perform();
 		
