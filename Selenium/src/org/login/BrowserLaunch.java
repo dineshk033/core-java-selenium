@@ -13,8 +13,8 @@ public class BrowserLaunch {
 		String title = driver.getTitle();
 		System.out.println(title);
 		//to capture the URL
-		String currentUrl = driver.getCurrentUrl();
-		System.out.println(currentUrl);
+		String currentUrl1 = driver.getCurrentUrl();
+		System.out.println(currentUrl1);
 		//to capture the page source
 		String pageSource = driver.getPageSource();
 		System.out.println(pageSource);
